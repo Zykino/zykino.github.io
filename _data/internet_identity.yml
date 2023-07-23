@@ -1,0 +1,10 @@
+my_name: Zykino
+cv_links:
+  fr: >
+    <a href="https://framagit.org/Zykino"><i class="fa-brands fa-gitlab"></i> Mes projets FLOSS</a>
+    |
+    <a href="https://zykino.net/gitea/zykino"><i class="fa-brands fa-git-alt"></i> D’autres projets perso</a>
+  en: >
+    <a href="https://framagit.org/Zykino"><i class="fa-brands fa-gitlab"></i> My FLOSS projects</a>
+    |
+    <a href="https://zykino.net/gitea/zykino"><i class="fa-brands fa-git-alt"></i> More personnal stuffs</a>

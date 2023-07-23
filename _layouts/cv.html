@@ -2,9 +2,15 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
-  <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+{% include variables.liquid %}
+  <title> {% if identity.my_name %} {{ identity.my_name }} | {% endif %} CV</title>
+  <link rel="icon" type="image/jpg" href="/assets/favicon.jpg">
+
+  <link href="/assets/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="/assets/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+
+  <link href="/assets/fontawesome-free-6.4.0-web/css/fontawesome.min.css" type="text/css" rel="stylesheet">
+  <link href="/assets/fontawesome-free-6.4.0-web/css/brands.min.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <div id="main">

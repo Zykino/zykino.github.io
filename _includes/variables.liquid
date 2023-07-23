@@ -1,0 +1,11 @@
+{% assign identity = site.data[page.identity] %}
+
+{% capture i18n_date %}
+{% assign i18n_month_array = site.data[page.lang] %}
+{% if i18n_month_array != null and i18n_month_array != "" %}
+{%		assign m = page.date | date: "%-m" | minus: 1 %}
+{{		i18n_month_array.months[m] }} {{ page.date | date: "%Y" }}
+{% else %}
+{{		page.date | date: "%B %Y" }}
+{% endif %}
+{% endcapture %}
