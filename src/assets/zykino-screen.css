@@ -207,11 +207,15 @@ strong {
 
 @media (prefers-color-scheme: light) {
 	:root {
-	  --main-accentuation-color: #8054cc;
+	  --main-accentuation-color: #74b;
 	}
 
 	body {
 		background: #eee;
 		color: #222;
+	}
+
+	code {
+		color: #666;
 	}
 }
