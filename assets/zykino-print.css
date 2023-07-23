@@ -52,7 +52,6 @@ table {
 
 
 body {
-	font: normal normal 400;
 	font-size: 12pt;
 	line-height: 1.35em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
@@ -134,12 +133,12 @@ h1+p {
 }
 
 h1 em {
-	color: #8054cc;
+	color: var(--main-accentuation-color);
 }
 
 h2 {
 	font-size: 1.1em;
-	color: #8054cc;
+	color: var(--main-accentuation-color);
 	margin-top: 2em;
 	position: relative;
 	top: 1.2em;
@@ -174,7 +173,7 @@ a:hover {
 }
 
 #webaddress a {
-	color: #8054cc;
+	color: var(--main-accentuation-color);
 }
 
 #webaddress a:hover {
@@ -194,3 +193,8 @@ strong {
 	display: none;
 	visibility: hidden;
 }
+
+:root {
+  --main-accentuation-color: #8054cc;
+}
+
