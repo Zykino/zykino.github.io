@@ -9,14 +9,17 @@
   <link href="/assets/{{ site.style }}-screen-cv.css" type="text/css" rel="stylesheet" media="screen">
   <link href="/assets/{{ site.style }}-print-cv.css" type="text/css" rel="stylesheet" media="print">
 
-  <link href="/assets/fontawesome-free-6.4.0-web/css/fontawesome.min.css" type="text/css" rel="stylesheet">
-  <link href="/assets/fontawesome-free-6.4.0-web/css/brands.min.css" type="text/css" rel="stylesheet">
+  <link href="/assets/fontawesome-free-6.4.0-web/css/all.min.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <div id="main">
-    <div id="content">
+  <main>
     {{ content }}
-    </div>
+  </main>
+  <div id="customisations">
+    <ul>
+      <li><button type="button" onclick="window.print()"><i class="fa-solid fa-print"></i></button></li>
+      <li><button type="button" onclick="document.body.classList.toggle('other-theme')"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+    </ul>
   </div>
 </body>
 </html>

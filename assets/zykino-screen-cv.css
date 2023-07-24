@@ -52,14 +52,50 @@ table {
 
 
 body {
-	background: #17191f;
-	color: #9baec8;
+	background: var(--main-background-color);
+	color: var(--main-color);
 	font-size: 100%;
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
+}
+
+#customisations {
+	padding: 0px;
+
+	/* CV specific */
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+}
+
+#customisations ul {
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 5px;
+	columns: 1;
+}
+
+#customisations ul li {
+	margin: 10px;
+}
+
+button {
+	background: var(--main-background-color);
+	color: var(--second-accentuation-color);
+	font-size: 1.5em;
+	border-radius: 5px;
+	border-color: var(--main-accentuation-color);
+	padding: 10px;
+	text-align: center;
+}
+
+button:hover {
+	background: var(--second-background-color);
 }
 
 p {
@@ -75,7 +111,7 @@ code {
 	font-size: 90%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #aaa;
+	color: var(--code-color);
 }
 
 p code {
@@ -99,20 +135,6 @@ ul {
 	position: relative;
 	left: -0.25em;
 }*/
-
-li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
-}
-
-li ul {
-	position: relative;
-	left: 0;
-	width: 100%;
-	margin-top: 0.25em;
-}
 
 h1,h2,h3,h4 {
 	font-weight: 400;
@@ -163,7 +185,7 @@ a {
 }
 
 a:hover {
-	color: var(--hover-anchor-color);
+	color: var(--second-accentuation-color);
 }
 
 #webaddress {
@@ -179,7 +201,7 @@ a:hover {
 }
 
 #webaddress a:hover {
-	color: var(--hover-anchor-color);
+	color: var(--second-accentuation-color);
 }
 
 em {
@@ -201,21 +223,43 @@ strong {
 }*/
 
 :root {
+  --main-background-color: #17191f;
+  --second-background-color: #282d3f;
+  --main-color: #9baec8;
+  --code-color: #aaa;
+
   --main-accentuation-color: #ebe3ab;
-  --hover-anchor-color: #39f;
+  --second-accentuation-color: #39f;
+}
+
+:root body.other-theme { /* == light theme */
+  --main-background-color: #eee;
+  --second-background-color: #ccc;
+  --main-color: #222;
+  --code-color: #666;
+
+  --main-accentuation-color: #74b;
+  --second-accentuation-color: #39f;
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
+	  --main-background-color: #eee;
+	  --second-background-color: #ccc;
+	  --main-color: #222;
+	  --code-color: #666;
+	
 	  --main-accentuation-color: #74b;
+	  --second-accentuation-color: #39f;
 	}
 
-	body {
-		background: #eee;
-		color: #222;
-	}
+	:root body.other-theme { /* == dark theme */
+	  --main-background-color: #17191f;
+	  --second-background-color: #282d3f;
+	  --main-color: #9baec8;
+	  --code-color: #aaa;
 
-	code {
-		color: #666;
+	  --main-accentuation-color: #ebe3ab;
+	  --second-accentuation-color: #39f;
 	}
 }

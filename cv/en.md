@@ -59,7 +59,7 @@ Creation of a land drone Bl'hack Panther with ATIS. We built it using a remote c
 
 ### Languages
 
-* _French_: Mother tongue
+* _French_: Mother tongue
 * _English_: High level, TOEIC 865
 
 ## Last updated
