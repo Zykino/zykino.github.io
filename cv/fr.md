@@ -1,6 +1,6 @@
 ---
 layout: cv
-date: 2023-07-23
+date: 2024-12-15
 lang: fr
 identity: internet_identity
 ---
@@ -17,6 +17,7 @@ Cherche à travailler en France, hors de l’île de France, et/ou en télétrav
 `Mai 2021 -> Aujourd’hui`
 **Ponant-technologies**, _Valence_\
 _Conduent_ : Re-développement d’un valideur pour fonctionnement sous Linux. _Qt5.14_ _C++17_
+ * Depuis Mai 2024 : Dev Lead sur deux phases d’une affaire
 
 `Mars 2016 -> Janvier 2021`
 **Witekio**, _Antony_ puis _Lyon_\
@@ -40,10 +41,11 @@ _Majeure_ : Architecture et Ingénierie du Logiciel
 
 ## Projects
 
-Création de **System Updater**, une commande pour mettre à jour votre système complet. _Rust_\
-Création de **Tradaf**, un outil en ligne de commande pour traduire d’un format de donnée à l’autre (JSON <-> YAML) _Rust_\
-Contribution à **Prismedia**, un script aidant à uploader ses vidéos sur Youtube et Peertube. _Python_\
-Création de **Tempi**, un outil permettant de gérer un ventilateur en fonction de la température du CPU d’un Raspberry PI. _Rust_\
+Création de [**zellij-console**](https://github.com/Zykino/zellij-console), un plugin pour exposer l’API du multiplexer de plugin `zellij` sous forme de command à l’utilisateur. _Rust_, _WASM_\
+Création de [**System Updater**](https://framagit.org/Zykino/system-updater/), une commande pour mettre à jour votre système complet. _Rust_\
+Création de [**Tradaf**](https://framagit.org/Zykino/Tradaf/), un outil en ligne de commande pour traduire d’un format de donnée à l’autre (JSON <-> YAML) _Rust_\
+Contribution à [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), un script aidant à uploader ses vidéos sur Youtube et Peertube. _Python_\
+Création de [**Tempi**](https://zykino.net/gitea/zykino/Tempi), un outil permettant de gérer un ventilateur en fonction de la température du CPU d’un Raspberry PI. _Rust_\
 Création d'un jeu multijoueur du style Bomberman en première personne avec intégration de l'Oculus Rift. Le projet est fait en utilisant _OGRE 3D_. _C++_\
 Mise en place d'une bibliothèque pour faire de l'odométrie avec un LIDAR, proposé par ATIS (Acquisition et Traitement des Images et des Signaux) laboratoire à l'ESIEA. _C_\
 Création du drone roulant Bl'hack Panther avec ATIS. Nous avons dronifié une voiture radio-commandé._C_

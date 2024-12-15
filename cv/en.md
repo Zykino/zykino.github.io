@@ -1,6 +1,6 @@
 ---
 layout: cv
-date: 2023-07-23
+date: 2024-12-15
 lang: en
 identity: internet_identity
 ---
@@ -17,6 +17,7 @@ Looking to work from France, away from Paris and/or remote<br />
 `May 2021 -> Now`
 **Ponant-technologies**, _Valence_\
 _Conduent_: "Porting" a validation device to work on Linux, . _Qt5.14_ _C++17_
+ * Since May 2024: Dev Lead on two phases of an affair
 
 `Mars 2016 -> January 2021`
 **Witekio**, _Antony_ then _Lyon_\
@@ -40,10 +41,11 @@ _Major_: Architecture and Software Engineering
 
 ## Projects
 
-Create **System Updater**, one command to update your whole system. _Rust_\
-Create **Tradaf**, a cli tool to translate from data format to data format. (JSON <-> YAML) _Rust_\
-Contribution to **Prismedia**, a script to help uploading videos to Youtube and Peertube. _Python_\
-Create **Tempi**, a tool to manage a fan depending on the Raspberry PI’s CPU’s temperature. _Rust_\
+Create [**zellij-console**](https://github.com/Zykino/zellij-console), a plugin to expose terminal’s multiplexer’s `zellij`’s API as command line for the user. _Rust_, _WASM_\
+Create [**System Updater**](https://framagit.org/Zykino/system-updater/), one command to update your whole system. _Rust_\
+Create [**Tradaf**](https://framagit.org/Zykino/Tradaf/), a cli tool to translate from data format to data format. (JSON <-> YAML) _Rust_\
+Contribution to [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), a script to help uploading videos to Youtube and Peertube. _Python_\
+Create [**Tempi**](https://zykino.net/gitea/zykino/Tempi), a tool to manage a fan depending on the Raspberry PI’s CPU’s temperature. _Rust_\
 Designing a multiplayer Bomberman style game in first person with Oculus Rift integration. The project use _OGRE 3D_. _C++_\
 Development of a library to do odometry with a LIDAR, suggested by ATIS (Acquisition et Traitement des Images et des Signaux) an ESIEA lab. _C_\
 Creation of a land drone Bl'hack Panther with ATIS. We built it using a remote control toy car. _C_
