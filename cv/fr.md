@@ -41,7 +41,7 @@ _Majeure_ : Architecture et Ingénierie du Logiciel
 
 ## Projects
 
-Création de [**zellij-console**](https://github.com/Zykino/zellij-console), un plugin pour exposer l’API du multiplexer de plugin `zellij` sous forme de command à l’utilisateur. _Rust_, _WASM_\
+Création de [**zellij-console**](https://github.com/Zykino/zellij-console), un plugin pour exposer l’API du multiplexer de plugin zellij sous forme de command à l’utilisateur. _Rust_, _WASM_\
 Création de [**System Updater**](https://framagit.org/Zykino/system-updater/), une commande pour mettre à jour votre système complet. _Rust_\
 Création de [**Tradaf**](https://framagit.org/Zykino/Tradaf/), un outil en ligne de commande pour traduire d’un format de donnée à l’autre (JSON <-> YAML) _Rust_\
 Contribution à [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), un script aidant à uploader ses vidéos sur Youtube et Peertube. _Python_\
