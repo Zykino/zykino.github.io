@@ -92,8 +92,11 @@ ul {
 	left: 25%;
 	width: 75%;
 	margin-bottom: 1em;
-	columns: 3;
 	/*margin-top: -0.5em;*/
+}
+
+.columns-3 {
+	columns: 3;
 }
 
 /*uncomment to get dashes in the list*/

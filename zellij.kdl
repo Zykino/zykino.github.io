@@ -3,13 +3,13 @@ layout {
 		plugin location="zellij:compact-bar"
 	}
 	pane split_direction="vertical" {
-		pane edit=""
 		pane split_direction="horizontal" stacked=true {
 			pane command="gitui" {
 				start_suspended true
 			}
 			pane
 		}
+		pane edit=""
 	}
 	floating_panes {
 		pane command="jekyll" {
