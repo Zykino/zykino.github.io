@@ -45,14 +45,14 @@ Cherche à travailler en France, hors de l’île de France, et/ou en télétrav
 
 ## Projects
 
-Création de [**zellij-shell**](https://github.com/Zykino/zellij-shell), un plugin pour exposer l’API du multiplexer de plugin zellij sous forme de commandes à l’utilisateur. _Rust_, _WASM_
-Création de [**System Updater**](https://framagit.org/Zykino/system-updater/), une commande pour mettre à jour votre système complet. _Rust_
-Création de [**Tradaf**](https://framagit.org/Zykino/Tradaf/), un outil en ligne de commande pour traduire d’un format de donnée à l’autre (JSON <-> YAML) _Rust_
-Contribution à [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), un script aidant à uploader ses vidéos sur Youtube et Peertube. _Python_
-Création de [**Tempi**](https://zykino.net/gitea/zykino/Tempi), un outil permettant de gérer un ventilateur en fonction de la température du CPU d’un Raspberry PI. _Rust_
-Création d'un jeu multijoueur du style Bomberman en première personne avec intégration de l'Oculus Rift. Le projet est fait en utilisant _OGRE 3D_. _C++_
-Mise en place d'une bibliothèque pour faire de l'odométrie avec un LIDAR, proposé par ATIS (Acquisition et Traitement des Images et des Signaux) laboratoire à l'ESIEA. _C_
-Création du drone roulant Bl'hack Panther avec ATIS. Nous avons dronifié une voiture radio-commandé._C_
+* Création de [**zellij-shell**](https://github.com/Zykino/zellij-shell), un plugin pour exposer l’API du multiplexer de plugin zellij sous forme de commandes à l’utilisateur. _Rust_, _WASM_
+* Création de [**System Updater**](https://framagit.org/Zykino/system-updater/), une commande pour mettre à jour votre système complet. _Rust_
+* Création de [**Tradaf**](https://framagit.org/Zykino/Tradaf/), un outil en ligne de commande pour traduire d’un format de donnée à l’autre (JSON <-> YAML) _Rust_
+* Contribution à [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), un script aidant à uploader ses vidéos sur Youtube et Peertube. _Python_
+* Création de [**Tempi**](https://zykino.net/gitea/zykino/Tempi), un outil permettant de gérer un ventilateur en fonction de la température du CPU d’un Raspberry PI. _Rust_
+* Création d'un jeu multijoueur du style Bomberman en première personne avec intégration de l'Oculus Rift. Le projet est fait en utilisant _OGRE 3D_. _C++_
+* Mise en place d'une bibliothèque pour faire de l'odométrie avec un LIDAR, proposé par ATIS (Acquisition et Traitement des Images et des Signaux) laboratoire à l'ESIEA. _C_
+* Création du drone roulant Bl'hack Panther avec ATIS. Nous avons dronifié une voiture radio-commandé._C_
 
 ## Compétences Techniques
 

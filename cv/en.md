@@ -45,14 +45,14 @@ Looking to work from France, away from Paris and/or remote<br />
 
 ## Projects
 
-Create [**zellij-shell**](https://github.com/Zykino/zellij-shell), a plugin to expose terminal’s multiplexer’s zellij’s API as command line for the user. _Rust_, _WASM_
-Create [**System Updater**](https://framagit.org/Zykino/system-updater/), one command to update your whole system. _Rust_
-Create [**Tradaf**](https://framagit.org/Zykino/Tradaf/), a cli tool to translate from data format to data format. (JSON <-> YAML) _Rust_
-Contribution to [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), a script to help uploading videos to Youtube and Peertube. _Python_
-Create [**Tempi**](https://zykino.net/gitea/zykino/Tempi), a tool to manage a fan depending on the Raspberry PI’s CPU’s temperature. _Rust_
-Designing a multiplayer Bomberman style game in first person with Oculus Rift integration. The project use _OGRE 3D_. _C++_
-Development of a library to do odometry with a LIDAR, suggested by ATIS (Acquisition et Traitement des Images et des Signaux) an ESIEA lab. _C_
-Creation of a land drone Bl'hack Panther with ATIS. We built it using a remote control toy car. _C_
+* Create [**zellij-shell**](https://github.com/Zykino/zellij-shell), a plugin to expose terminal’s multiplexer’s zellij’s API as command line for the user. _Rust_, _WASM_
+* Create [**System Updater**](https://framagit.org/Zykino/system-updater/), one command to update your whole system. _Rust_
+* Create [**Tradaf**](https://framagit.org/Zykino/Tradaf/), a cli tool to translate from data format to data format. (JSON <-> YAML) _Rust_
+* Contribution to [**Prismedia**](https://git.lecygnenoir.info/LecygneNoir/prismedia/), a script to help uploading videos to Youtube and Peertube. _Python_
+* Create [**Tempi**](https://zykino.net/gitea/zykino/Tempi), a tool to manage a fan depending on the Raspberry PI’s CPU’s temperature. _Rust_
+* Designing a multiplayer Bomberman style game in first person with Oculus Rift integration. The project use _OGRE 3D_. _C++_
+* Development of a library to do odometry with a LIDAR, suggested by ATIS (Acquisition et Traitement des Images et des Signaux) an ESIEA lab. _C_
+* Creation of a land drone Bl'hack Panther with ATIS. We built it using a remote control toy car. _C_
 
 ## Skills
 
