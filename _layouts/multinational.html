@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8 />
+{% include variables.liquid %}
+  <title>{{ page.path | replace: '.md',''}}</title>
+  <link rel="icon" type="image/jpg" href="/assets/favicon.jpg">
+
+  <link href="/assets/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
+
+  <link href="/assets/fontawesome-free-6.4.0-web/css/fontawesome.min.css" type="text/css" rel="stylesheet">
+  <link href="/assets/fontawesome-free-6.4.0-web/css/brands.min.css" type="text/css" rel="stylesheet">
+
+  <meta name="google-site-verification" content="XlE2zmqPnT3ahKZ5jHTHFrs6kYTk2dU_RgwNw6iw7ic" />
+</head>
+<body>
+  <nav>
+    <a href="{% link multinational/index.md %}">Accueil</a>
+    <a href="{% link multinational/policy.md %}">Policy</a>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
